@@ -10,7 +10,6 @@ $("#box-button").click( function() {
 });
 
 $("#secret-box").click( function(){
-    $("#secret-box").css("background-color","palegreen")
     $("#secret-box").addClass("animate-boxy");
     
     setTimeout(function (){
@@ -21,7 +20,7 @@ $("#secret-box").click( function(){
 });
 
 $("#my-name").click( function(){
-    $("#secret-box").css("border-radius","20%");
+    $("#secret-box").css("border-radius","20px");
     $("#secret-box").css("background-color","purple");
 });
 
